@@ -4,20 +4,19 @@
 **Asignatura:** Programación 2  
 **Docente:** Eduandy Isabel Cruz Abreu  
 **Estudiante:** Franklyn Enmanuel Santana Rodríguez (Matrícula: 2025-2089)  
+**Modalidad:** Proyecto Individual (Autorizado por la docente)  
 
 ---
 
 ## 📌 Descripción del Proyecto
-Este proyecto contiene la resolución completa y estructurada de la **Práctica - Parcial** de la asignatura Programación 2, aplicando los fundamentos de la sintaxis en C# y los cuatro pilares esenciales de la Programación Orientada a Objetos (POO).
-
-El código fuente se encuentra debidamente documentado con comentarios claros y explicativos sobre la lógica implementada en cada sección.
+Este repositorio contiene la solución completa de la **Práctica - Parcial** de Programación 2, estructurada en un solo proyecto de consola en C# (.NET). El código fuente se encuentra debidamente documentado con comentarios técnicos que explican la sintaxis y los cuatro pilares fundamentales de la Programación Orientada a Objetos (POO): **Abstracción, Encapsulamiento, Herencia y Polimorfismo**, además de la implementación de **Interfaces**.
 
 ---
 
 ## 🛠️ Contenido de los Ejercicios Desarrollados
 
 ### 1. Sintaxis Básica y Variables
-* Mensaje formal de bienvenida al sistema.
+* Mensaje formal de bienvenida al sistema con identificación del estudiante.
 * Declaración, asignación e impresión de distintos tipos de datos primitivos (`int`, `string`, `double`, `bool`).
 
 ### 2. Estructuras de Control
@@ -47,13 +46,30 @@ El código fuente se encuentra debidamente documentado con comentarios claros y 
 
 ---
 
-## 🚀 Compilación y Ejecución
-Para compilar y ejecutar el proyecto localmente mediante la terminal de .NET:
+## 📷 Evidencias de Ejecución
+
+El programa fue compilado y ejecutado satisfactoriamente desde la terminal mediante el comando `dotnet run`:
+
+### Parte 1: Sintaxis Básica, Variables y Estructuras de Control (Ejercicios 1 y 2)
+![Ejecución Parte 1](Captura_Parte1.png)
+
+### Parte 2: Clases, Objetos, Herencia y Polimorfismo (Ejercicios 3, 4 y 5)
+![Ejecución Parte 2](Captura_Parte2.png)
+
+### Parte 3: Encapsulamiento, Interfaces y Abstracción (Ejercicios 6 y 7)
+![Ejecución Parte 3](Captura_Parte3.png)
+
+---
+
+## 🚀 Cómo Ejecutar el Proyecto
 
 ```bash
-# Acceder al directorio del proyecto
+# 1. Clonar el repositorio
+git clone https://github.com/Osiris3939/Practica_Parcial_Prog2.git
+
+# 2. Entrar a la carpeta
 cd Practica_Parcial_Prog2
 
-# Ejecutar el programa
+# 3. Ejecutar la aplicación
 dotnet run
 ```
